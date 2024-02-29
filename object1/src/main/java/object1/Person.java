@@ -23,7 +23,7 @@ class Person {
     }
     public static void main(String[] args) {
        //  Declare and initialize an object
-        Person ahmed = new Person("John", 30, 78);
+        Person ahmed = new Person("Johnn", 30, 78);
       //  System.out.println(ahmed.getHeight());
 
         /* Now you can use the Object `person1` */
