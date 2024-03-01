@@ -2,24 +2,27 @@ package object1;
 
 import java.util.logging.Logger;
 
-public class Main
-{
+public class Main {
 
-    public static void main(String... args)
+    public static void main(String... args) {
+        Logger logger = Logger.getLogger(Main.class.getName());
+        logger.info("This is a module-using Hello World!");
 
-    {
-        Logger logger=Logger.getLogger(Main.class.getName());
+       Person Person1 = new Person("sss", 2);
+        System.out.println(Person1.height);
 
-    logger.info("This is a module-using Hello World!");
+        Person person2 = new Person("ahmed", 5, 4);
 
-    Person ahmed = new Person ("Ahmed", 8, 5);
-       // System.out.println(ahmed.getHeight());
+        Car Cow = new Car("31", "1980", 4,4);
+        System.out.println(Cow.getModel());
+
+        Chair Chair2 = new Chair("WOOD", "red", 4);
+        System.out.println(Chair2.getMaterial());
+
+        Dog Pitbull = new Dog("pitbull", 5, "I don't know");
+        System.out.println(Pitbull.getName());
+
     }
 
 
-
-
-
-
 }
-

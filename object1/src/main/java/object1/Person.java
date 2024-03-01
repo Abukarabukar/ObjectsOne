@@ -14,20 +14,25 @@ class Person {
         this.age = age;
         this.height = height;
     }
-    public int getHeight() {
-        return height;
-    }
 
-    public void setHeight (int height) {
-        this.height = height;
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+        this.height = 0;
     }
-    public static void main(String[] args) {
-       //  Declare and initialize an object
-        Person ahmed = new Person("Johnn", 30, 78);
-      //  System.out.println(ahmed.getHeight());
+  //  public int getHeight() {
+   //     return height;
 
-        /* Now you can use the Object `person1` */
 
-    }
+//    public void setHeight (int height) {
+//        this.height = height;
+//    }
+//public static void main(String[] args) {
+    // Declare and initialize an object
+//    Person person1 = new Person("John", 30, 0);
+
+    /* Now you can use the Object `person1` */
+
+//}
+
 }
-
